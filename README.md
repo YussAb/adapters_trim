@@ -23,7 +23,7 @@ wget ftp://ftp-trace.ncbi.nih.gov/ReferenceSamples/giab/data/NA12878/Garvan_NA12
 
 2.1) From command-line
 
-bash ./adapters_trim.sh NIST7035_TAAGGCGA_L001_R1_001 NIST7035_TAAGGCGA_L001_R2_001
+> bash ./adapters_trim.sh NIST7035_TAAGGCGA_L001_R1_001 NIST7035_TAAGGCGA_L001_R2_001
 
 2.2) Using PBS
 
