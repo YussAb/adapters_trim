@@ -1,7 +1,8 @@
 Script to trim adapters from fastq files with Trimmomatic and assessment with FastQC.
 
 1)PRE-PROCESSING 
-**Create folders:
+
+*Create folders:
 
 ./script -- containing the content of this repository 
 
