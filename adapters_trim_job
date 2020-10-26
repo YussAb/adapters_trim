@@ -11,8 +11,8 @@ module load bio/fastqc/0.11.8
 
 echo "module loaded succesfully"
 
-echo "accessing ./germline/script"
-cd ./germline/script
+echo "accessing ./adapters_trim/script"
+cd ./adapters_trim/script
 
 echo "running adapters_trim.sh"
 bash ./adapters_trim.sh NIST7035_TAAGGCGA_L001_R1_001 NIST7035_TAAGGCGA_L001_R2_001
@@ -27,4 +27,5 @@ echo "running adapters_trim.sh"
 bash ./adapters_trim.sh NIST7086_CGTACTAG_L002_R1_001 NIST7086_CGTACTAG_L002_R2_001
 
 echo "Good job"
+
 
