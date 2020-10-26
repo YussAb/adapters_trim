@@ -48,7 +48,7 @@ cd $WORK_DIR/fastqc
 
 fastqc -o $WORK_DIR/fastqc -t 6 $DATA_DIR/$fwd_read.fastq.gz
 
-fastqc -o $WORK_DIR/fastqc -t 6 $DATA_DIR/$rws_read.fastq .gz
+fastqc -o $WORK_DIR/fastqc -t 6 $DATA_DIR/$rws_read.fastq.gz
 
 fastqc -o $WORK_DIR/fastqc -t 6 $WORK_DIR/$fwd_read.trimmed.fastq.gz 
 
