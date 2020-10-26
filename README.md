@@ -8,6 +8,7 @@ Script to trim adapters from fastq files with Trimmomatic and assessment with Fa
 
 ./data -- containing the fastq.gz sequences to analyze and the adapters sequences.
 Example of sequences:
+
 wget ftp://ftp-trace.ncbi.nih.gov/ReferenceSamples/giab/data/NA12878/Garvan_NA12878_HG001_HiSeq_Exome/NIST7035_TAAGGCGA_L001_R1_001.fastq.gz
 
 wget ftp://ftp-trace.ncbi.nih.gov/ReferenceSamples/giab/data/NA12878/Garvan_NA12878_HG001_HiSeq_Exome/NIST7035_TAAGGCGA_L001_R2_001.fastq.gz
@@ -27,6 +28,7 @@ wget ftp://ftp-trace.ncbi.nih.gov/ReferenceSamples/giab/data/NA12878/Garvan_NA12
 ./data/adapters -- https://github.com/timflutre/trimmomatic/tree/master/adapters
 
 ./analysis -- it will contain the result of the analysis 
+
 
 2)RUNNING PIPELINE
 
